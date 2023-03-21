@@ -19,9 +19,9 @@ Mi nombre es Francisco Sagasti, estudiante de profesorado de Informática.
 
 
 
-
+## Comentarios-Hitos 
 En la instalación de MSYS2 nos encontramos con problemas en la instalación. Ya que no se reconocia al compilador. Para ello necesitamos algunos comandos:
 - $ pacman -Syu
 - $ pacman -Syu base-devel
 - $ pacman -Syu mingw-w64-x86_64-toolchain
-- $ pacman -Syu mingw-w64-i868-toolchain
+- $ pacman -Syu mingw-w64-i686-toolchain
