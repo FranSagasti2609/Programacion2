@@ -11,7 +11,7 @@
                 "-g",
                 "*.c",
                 "-o",
-                "${fileDirname}\\Proyecto1\\main.exe"
+                "${fileDirname}\\main.exe" //Genera el archivo main.exe en la direccion que quiera. Podria cambiar
                     ],
             "options": {
                 "cwd": "${fileDirname}"
