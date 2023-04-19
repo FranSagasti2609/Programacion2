@@ -143,9 +143,12 @@ int main() {
             lista_mostrar(lista); 
 
             lista_sort(&lista);
+            /*
             for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
                 printf("%d ", nodo->valor);
             }
+            */
+            lista_mostrar(lista);
             printf("\n");
 
             printf("\nUtilizando Búsqueda binaria.\n");
@@ -167,10 +170,12 @@ int main() {
 
             // Imprimimos la lista NO ordenada
             printf("La lista NO ordenada es: ");
-
+            /*
             for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
                 printf("%d ", nodo->valor);
             }
+            */
+            lista_mostrar(lista);
             printf("\n");
 
             // Ordenamos la lista utilizando el algoritmo de ordenamiento de burbuja
@@ -178,9 +183,12 @@ int main() {
 
             // Imprimimos la lista ordenada
             printf("La lista ordenada es: ");
+            /*
             for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
                 printf("%d ", nodo->valor);
             }
+            */
+            lista_mostrar(lista);
             printf("\n");
             break;
         case 23:
@@ -195,9 +203,12 @@ int main() {
             // Imprimimos la lista NO ordenada
             printf("La lista NO ordenada es: ");
 
+            /*
             for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
                 printf("%d ", nodo->valor);
             }
+            */
+            lista_mostrar(lista);
             printf("\n");
 
             // Ordenamos la lista utilizando el algoritmo de ordenamiento de burbuja
@@ -205,9 +216,12 @@ int main() {
 
             // Imprimimos la lista ordenada
             printf("La lista ordenada es: ");
+            /*
             for (nodo_t* nodo = lista.cabeza; nodo != NULL; nodo = nodo->siguiente) {
                 printf("%d ", nodo->valor);
             }
+            */
+            lista_mostrar(lista);
             printf("\n");
             break;
         case 25:
