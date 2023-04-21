@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int x=54;
-    int y=34;
-    int suma=x+y;
-
-    printf("Que tal estas? La suma de X e Y es: %d",suma);
+        printf("Primer Programa en Visual Studio. Prog2\n");
+        
     return 0;
 }
